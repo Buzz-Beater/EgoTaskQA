@@ -26,7 +26,7 @@ generation, balancing, data split, and baseline experiments. For these two funct
 sub-directory for code and instructions.
 
 ## Citation
-If you find our paper and/or code helpful, please consider citing
+If you find our paper and/or code helpful, please consider citing:
 ```
 @inproceedings{jia2022egotaskqa,
     title = {EgoTaskQA: Understanding Human Tasks in Egocentric Videos},

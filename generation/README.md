@@ -8,6 +8,7 @@ to ``$TEMPLATE_PATH``. Next, you can run the ``generate.sh`` provided in this co
 You will need to change the ``$ANNO_PATH`` to the path to the world state annotation downloaded, 
 ``$TEMPLATE_PATH`` to the question templates path and ``$SAVE_BASE`` to the path you want to save the file.
 ```bash
+$ cd generation
 $ chmod a+x generate.sh
 $ ./generate.sh
 ```

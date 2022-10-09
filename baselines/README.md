@@ -18,6 +18,7 @@ We will also discuss how to generate them from your own generated question-answe
 For running experiments, we need to first take all question-answer pairs generated and split them to train, validation and
 test sets. For this step, you can do the following:
 ```bash
+$ cd baselines
 $ python preprocess/qas2tagged_qas.py --file balance_qa_maskX.json --path $SAVE_BASE
 $ python preprocess/split.py --type $SPLIT
 ```

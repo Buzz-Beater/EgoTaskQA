@@ -21,7 +21,8 @@ $ pip install torch torchvision --extra-index-url https://download.pytorch.org/w
 
 Similar CUDA version should also be acceptable with corresponding version control for ``torch`` and ``torchvision``.
 We refer the authors to [Generation](generation/README.md) and [Experiment](baselines/README.md) for details on quetsion-answer
-generation, balancing, data split, and baseline experiments.
+generation, balancing, data split, and baseline experiments. For these two functionalities, please checkout the corresponding
+sub-directory for code and instructions.
 
 ## Citation
 If you find our paper and/or code helpful, please consider citing

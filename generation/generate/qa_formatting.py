@@ -7,7 +7,7 @@
 
 import re
 import copy as cp
-from generation.generate.executor import execute
+from generate.executor import execute
 
 
 def pretty_fluent(pid, fluents):

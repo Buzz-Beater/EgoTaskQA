@@ -12,7 +12,7 @@ import copy as cp
 
 import pandas as pd
 
-import generation.generate.qa_formatting as qu
+import generate.qa_formatting as qu
 
 
 def gather_simultaneous(interval_clip_id, vid, pid, pred_start, metadata, annotations):

@@ -2,9 +2,10 @@
 
 This repo contains code for our NeurIPS Datasets and Benchmarks 2022 paper:
 
-[EgoTaskQA: Understanding Human Tasks in Egocentric Videos]
+[EgoTaskQA: Understanding Human Tasks in Egocentric Videos](https://buzz-beater.github.io/assets/publications/2022_egotaskqa_nips/paper.pdf)
 
 Baoxiong Jia, Ting Lei, Song-Chun Zhu, Siyuan Huang
+
 *Advances in Neural Information Processing Systems Datasets and Benchmarks (NeurIPS Datasets and Benchmarks)*, 2022
 
 ## Dataset

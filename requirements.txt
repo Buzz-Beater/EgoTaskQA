@@ -1,0 +1,14 @@
+joblib==1.1.0
+pandas==1.3.5
+tqdm==4.62.3
+opencv-python==4.5.5.62
+numpy==1.22.0
+tensorboard
+entrypoints
+pyyaml
+h5py==3.7.0
+Pillow==9.1.1
+block==0.0.5
+transformers==4.19.4
+block.bootstrap.pytorch==0.1.6
+nltk

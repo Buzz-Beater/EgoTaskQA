@@ -62,6 +62,9 @@ direct/
 ```
 which compared to the previous version, generates metadata files for experiments.  
 
+*Note, for ClipBERT related experiments, please follow the instruction from their [website](https://github.com/jayleicn/ClipBERT)
+for preprocessing and training.
+
 [//]: # (This script will run the following preprocess for features and texts:)
 
 [//]: # (  - ```bash)

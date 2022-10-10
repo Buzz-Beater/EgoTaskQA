@@ -60,10 +60,7 @@ direct/
 |-- vid_intervals.json
 |-- vocab.txt
 ```
-which compared to the previous version, generates metadata files for experiments.  
-
-*Note, for ClipBERT related experiments, please follow the instruction from their [website](https://github.com/jayleicn/ClipBERT)
-for preprocessing and training.
+which compared to the previous version, generates metadata files for experiments.
 
 [//]: # (This script will run the following preprocess for features and texts:)
 
@@ -142,6 +139,9 @@ $ python $TRAIN_MODEL_PY --feature_base_path $FEATURE_BASE/video_features --base
 For bert-based model, you need to set BertTokenizer_CKPT and BertModel_CKPT for the model to load pretrained model from huggingface.
 + For linguistic_bert, set BertTokenizer_CKPT="bert-base-uncased", BertModel_CKPT="bert-base-uncased".
 + For visual_bert, set BertTokenizer_CKPT="bert-base-uncased", VisualBertModel_CKPT="uclanlp/visualbert-vqa-coco-pre".
+
+*Note, for ClipBERT related experiments, please follow the instruction from their [website](https://github.com/jayleicn/ClipBERT)
+for preprocessing and training.
 
 ## Reload ckpts & test_only
 To reload checkpoints and only run inference on test_qas, run the following command:

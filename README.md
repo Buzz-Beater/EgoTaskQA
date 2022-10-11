@@ -1,10 +1,10 @@
 # EgoTaskQA
 
 <p align="left">
-    <a href='[https://arxiv.org/abs/2210.00722](http://arxiv.org/abs/2210.03929)'>
+    <a href='http://arxiv.org/abs/2210.03929'>
       <img src='https://img.shields.io/badge/Paper-arXiv-green?style=plastic&logo=arXiv&logoColor=green' alt='Paper arXiv'>
     </a>
-    <a href='[https://blog-img-1302618638.cos.ap-beijing.myqcloud.com/uPic/ICRA23_GenDexGrasp.pdf](https://buzz-beater.github.io/assets/publications/2022_egotaskqa_nips/paper.pdf)'>
+    <a href='https://buzz-beater.github.io/assets/publications/2022_egotaskqa_nips/paper.pdf'>
       <img src='https://img.shields.io/badge/Paper-PDF-red?style=plastic&logo=adobeacrobatreader&logoColor=red' alt='Paper PDF'>
     </a>
     <a href='https://sites.google.com/view/egotaskqa'>

@@ -1,12 +1,22 @@
 # EgoTaskQA
 
+<p align="left">
+    <a href='[https://arxiv.org/abs/2210.00722](http://arxiv.org/abs/2210.03929)'>
+      <img src='https://img.shields.io/badge/Paper-arXiv-green?style=plastic&logo=arXiv&logoColor=green' alt='Paper arXiv'>
+    </a>
+    <a href='[https://blog-img-1302618638.cos.ap-beijing.myqcloud.com/uPic/ICRA23_GenDexGrasp.pdf](https://buzz-beater.github.io/assets/publications/2022_egotaskqa_nips/paper.pdf)'>
+      <img src='https://img.shields.io/badge/Paper-PDF-red?style=plastic&logo=adobeacrobatreader&logoColor=red' alt='Paper PDF'>
+    </a>
+    <a href='https://sites.google.com/view/egotaskqa'>
+      <img src='https://img.shields.io/badge/Project-Page-blue?style=plastic&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
+    </a>
+</p>
+
 This repo contains code for our NeurIPS Datasets and Benchmarks 2022 paper:
 
 [EgoTaskQA: Understanding Human Tasks in Egocentric Videos](https://buzz-beater.github.io/assets/publications/2022_egotaskqa_nips/paper.pdf)
 
-Baoxiong Jia, Ting Lei, Song-Chun Zhu, Siyuan Huang
-
-*Advances in Neural Information Processing Systems Datasets and Benchmarks (NeurIPS Datasets and Benchmarks)*, 2022
+[Baoxiong Jia](https://buzz-beater.github.io/), [Ting Lei](https://scholar.google.com/citations?user=Zk7Vxz0AAAAJ&hl=en), [Song-Chun Zhu](http://www.stat.ucla.edu/~sczhu/), [Siyuan Huang](https://siyuanhuang.com/)
 
 ## Dataset
 For data download, please check our [website](https://sites.google.com/view/egotask-qa) for instructions and details.

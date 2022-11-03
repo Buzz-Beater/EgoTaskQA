@@ -285,6 +285,16 @@ def post_process(result):
     if result["semantic"] == "task":
         if "," in result["answer"]:
             return None
+    digits = set()
+    for ch_idx, ch in enumerate(result["question"]):
+        if ch.isdigit():
+            digits.add(ch)
+    for ch_idx, ch in enumerate(result["answer"]):
+        if ch.isdigit():
+            digits.add(ch)
+    for digit in digits:
+        result["question"] = result["question"].replace(digit, "")
+        result["answer"] = result["answer"].replace(digit, "")
     return result
 
 
@@ -351,16 +361,6 @@ def process_obj_vis(qa, interval_data, causal_trace, vis_num):
         need_sups = re.findall(pattern, new_qa["question"])
         for need_sup in need_sups:
             new_qa["question"] = new_qa["question"].replace(need_sup, need_sup[1:-1].split(":")[1])
-        digits = set()
-        for ch_idx, ch in enumerate(new_qa["question"]):
-            if ch.isdigit():
-                digits.add(ch)
-        for ch_idx, ch in enumerate(new_qa["answer"]):
-            if ch.isdigit():
-                digits.add(ch)
-        for digit in digits:
-            new_qa["question"] = new_qa["question"].replace(digit, "")
-            new_qa["answer"] = new_qa["answer"].replace(digit, "")
         results.append(cp.deepcopy(new_qa))
     if len(results) > 1:
         print(qa)

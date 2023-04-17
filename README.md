@@ -19,7 +19,7 @@ This repo contains code for our NeurIPS Datasets and Benchmarks 2022 paper:
 [Baoxiong Jia](https://buzz-beater.github.io/), [Ting Lei](https://scholar.google.com/citations?user=Zk7Vxz0AAAAJ&hl=en), [Song-Chun Zhu](http://www.stat.ucla.edu/~sczhu/), [Siyuan Huang](https://siyuanhuang.com/)
 
 ## Dataset
-For data download, please check our [website](https://sites.google.com/view/egotask-qa) for instructions and details.
+For data download, please check our [website](https://sites.google.com/view/egotaskqa) for instructions and details.
 ![overview](https://buzz-beater.github.io/assets/publications/2022_egotaskqa_nips/overview.png)
 ## Experimental Setup
 We provide all environment configurations in ``requirements.txt``. In our experiments, we used NVIDIA CUDA 11.3 on Ubuntu 20.04
